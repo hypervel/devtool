@@ -42,6 +42,7 @@ class ResourceCommand extends GeneratorCommand
             ['namespace', 'N', InputOption::VALUE_OPTIONAL, 'The namespace for class.', null],
             ['force', 'f', InputOption::VALUE_NONE, 'Create the class even if the resource already exists'],
             ['collection', 'c', InputOption::VALUE_NONE, 'Create a resource collection'],
+            ['path', null, InputOption::VALUE_OPTIONAL, 'The location where the file should be created.', null],
         ];
     }
 }
