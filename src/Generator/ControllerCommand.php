@@ -60,6 +60,7 @@ class ControllerCommand extends GeneratorCommand
             ['model', 'm', InputOption::VALUE_OPTIONAL, 'Generate a resource controller for the given model'],
             ['resource', 'r', InputOption::VALUE_NONE, 'Generate a resource controller class'],
             ['requests', 'R', InputOption::VALUE_NONE, 'Generate FormRequest classes for store and update'],
+            ['path', null, InputOption::VALUE_OPTIONAL, 'The location where the file should be created.', null],
         ];
     }
 
